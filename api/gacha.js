@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-  const prompt = "请告诉我，今天中午吃什么；并且附带理由。";
+  const prompt = "请告诉我，今天中午吃什么；不要重复，并且每次附带理由。";
   const apiKey = process.env.DEEPSEEK_API_KEY; // 从环境变量读取
 
   if (!apiKey) {
