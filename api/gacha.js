@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-  const prompt = "请生成一句温柔、治愈、轻松的中文短句，能让人心情变好。";
+  const prompt = "请告诉我，今天中午吃什么；并且附带理由。";
   const apiKey = process.env.DEEPSEEK_API_KEY; // 从环境变量读取
 
   if (!apiKey) {
