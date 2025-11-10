@@ -2,7 +2,7 @@ const button = document.getElementById("gachaBtn");
 const result = document.getElementById("result");
 
 button.addEventListener("click", async () => {
-  result.innerText = "🎲 扭蛋中，请稍候...";
+  result.innerText = "🎲 思考中，请稍候...";
 
   try {
     const response = await fetch("/api/gacha");
